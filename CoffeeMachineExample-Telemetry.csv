@@ -114,13 +114,6 @@
 "CoffeeMachine","1670318999700","2022-12-06T09:29:59.700Z","Not Brewing","92.61555966957874","51"	
 "CoffeeMachine","1670319001720","2022-12-06T09:30:01.720Z","Not Brewing","99.11555923003661","51"	
 "CoffeeMachine","1670319003735","2022-12-06T09:30:03.735Z","Not Brewing","92.68482438794251","51"	
-new desired properties received:	
-{"{"min":60","max":80","$version":2"	
-updating desired Watertemperature:	
-Desired min temp = 60	
-Desired max temp = 80	
-Cloud message handler registered	
-twin state reported:{"{"min":60","max":80","wl":51""	
 "CoffeeMachine","1670319005735","2022-12-06T09:30:05.735Z","Not Brewing","61.99287965377428","51"	
 "CoffeeMachine","1670319007746","2022-12-06T09:30:07.746Z","Not Brewing","60.53336319557302","51"	
 "CoffeeMachine","1670319009752","2022-12-06T09:30:09.752Z","Not Brewing","67.41470874961902","51"	
@@ -283,8 +276,7 @@ twin state reported:{"{"min":60","max":80","wl":51""
 "CoffeeMachine","1670319324764","2022-12-06T09:35:24.764Z","Not Brewing","75.6395855243733","51"	
 "CoffeeMachine","1670319326767","2022-12-06T09:35:26.767Z","Not Brewing","65.44426260610007","51"	
 "CoffeeMachine","1670319328776","2022-12-06T09:35:28.776Z","Not Brewing","63.80093273847406","51"	
-"CoffeeMachine","1670319330780","2022-12-06T09:35:30.780Z","Not Brewing","73.05865721949974","51"	
- * Brewing command received	
+"CoffeeMachine","1670319330780","2022-12-06T09:35:30.780Z","Not Brewing","73.05865721949974","51"		
 "CoffeeMachine","1670319332781","2022-12-06T09:35:32.781Z","Pressurize water","63.4432309453749","51"	
 "CoffeeMachine","1670319334789","2022-12-06T09:35:34.789Z","Brewing","62.973982516168135","50"	
 "CoffeeMachine","1670319336794","2022-12-06T09:35:36.794Z","Brewing","65.1799065648225","49"	
@@ -373,7 +365,6 @@ twin state reported:{"{"min":60","max":80","wl":51""
 "CoffeeMachine","1670319503372","2022-12-06T09:38:23.372Z","Not Brewing","69.75413995945782","31"	
 "CoffeeMachine","1670319505386","2022-12-06T09:38:25.386Z","Not Brewing","77.6050098795915","31"	
 "CoffeeMachine","1670319507400","2022-12-06T09:38:27.400Z","Not Brewing","73.9608935936493","31"	
- * Brewing command received	
 "CoffeeMachine","1670319509402","2022-12-06T09:38:29.402Z","Pressurize water","69.65831555700355","31"	
 "CoffeeMachine","1670319511405","2022-12-06T09:38:31.405Z","Brewing","64.63660942659907","30"	
 "CoffeeMachine","1670319513409","2022-12-06T09:38:33.409Z","Brewing","74.04075372272901","29"	
@@ -418,8 +409,6 @@ twin state reported:{"{"min":60","max":80","wl":51""
 "CoffeeMachine","1670319591672","2022-12-06T09:39:51.672Z","Not Brewing","76.3291647607216","11"	
 "CoffeeMachine","1670319593683","2022-12-06T09:39:53.683Z","Not Brewing","61.56303628114528","11"	
 "CoffeeMachine","1670319595692","2022-12-06T09:39:55.692Z","Not Brewing","66.49334093671004","11"	
-Cloud message received	
-Id:  Body: Test message	
 "CoffeeMachine","1670319597707","2022-12-06T09:39:57.707Z","Not Brewing","65.04302985564257","11"	
 "CoffeeMachine","1670319599714","2022-12-06T09:39:59.714Z","Not Brewing","72.19699754901625","11"	
 "CoffeeMachine","1670319601727","2022-12-06T09:40:01.727Z","Not Brewing","61.42844392782662","11"	
@@ -655,8 +644,7 @@ Id:  Body: Test message
 "CoffeeMachine","1670320063343","2022-12-06T09:47:43.343Z","Not Brewing","70.35851002613256","11"	
 "CoffeeMachine","1670320065350","2022-12-06T09:47:45.350Z","Not Brewing","61.22639442623556","11"	
 "CoffeeMachine","1670320067364","2022-12-06T09:47:47.364Z","Not Brewing","77.16219261787799","11"	
-"CoffeeMachine","1670320069378","2022-12-06T09:47:49.378Z","Not Brewing","74.34311721038631","11"	
- * Brewing command received	
+"CoffeeMachine","1670320069378","2022-12-06T09:47:49.378Z","Not Brewing","74.34311721038631","11"		
 "CoffeeMachine","1670320071379","2022-12-06T09:47:51.379Z","Pressurize water","65.8469895173687","11"	
 "CoffeeMachine","1670320073389","2022-12-06T09:47:53.389Z","Waterlevel too low!","69.65778476435662","11"	
 "CoffeeMachine","1670320075393","2022-12-06T09:47:55.393Z","Waterlevel too low!","60.537570041208475","11"	
@@ -680,8 +668,6 @@ Id:  Body: Test message
 "CoffeeMachine","1670320111558","2022-12-06T09:48:31.558Z","Waterlevel too low!","79.29861552194757","11"	
 "CoffeeMachine","1670320113560","2022-12-06T09:48:33.560Z","Waterlevel too low!","78.18116315819805","11"	
 "CoffeeMachine","1670320115568","2022-12-06T09:48:35.568Z","Waterlevel too low!","72.9840033645555","11"	
- * Reset water level received	
- * Reset to 51	 state set to Not Brewing
 "CoffeeMachine","1670320117573","2022-12-06T09:48:37.573Z","Not Brewing","69.36761010711894","51"	
 "CoffeeMachine","1670320119587","2022-12-06T09:48:39.587Z","Brewing","66.76998781410052","50"	
 "CoffeeMachine","1670320121588","2022-12-06T09:48:41.588Z","Brewing","66.9816862802571","49"	
@@ -690,9 +676,7 @@ Id:  Body: Test message
 "CoffeeMachine","1670320127600","2022-12-06T09:48:47.600Z","Brewing","78.03826116881041","46"	
 "CoffeeMachine","1670320129604","2022-12-06T09:48:49.604Z","Brewing","78.62561146183964","45"	
 "CoffeeMachine","1670320131612","2022-12-06T09:48:51.612Z","Brewing","78.3105537567327","44"	
-"CoffeeMachine","1670320133618","2022-12-06T09:48:53.618Z","Brewing","72.20624827041541","43"	
- * Brewing command received	
- - Warning: The device is already brewing.	
+"CoffeeMachine","1670320133618","2022-12-06T09:48:53.618Z","Brewing","72.20624827041541","43"		
 "CoffeeMachine","1670320135630","2022-12-06T09:48:55.630Z","Brewing","66.92616983298615","42"	
 "CoffeeMachine","1670320137636","2022-12-06T09:48:57.636Z","Brewing","67.0274105427157","41"	
 "CoffeeMachine","1670320139642","2022-12-06T09:48:59.642Z","Brewing","78.64362224906188","40"	
@@ -1868,8 +1852,7 @@ Id:  Body: Test message
 "CoffeeMachine","1670322487371","2022-12-06T10:28:07.371Z","Not Brewing","74.69374462966132","31"	
 "CoffeeMachine","1670322489394","2022-12-06T10:28:09.394Z","Not Brewing","74.1909953780774","31"	
 "CoffeeMachine","1670322491401","2022-12-06T10:28:11.401Z","Not Brewing","67.9668508123987","31"	
-"CoffeeMachine","1670322493401","2022-12-06T10:28:13.401Z","Not Brewing","71.94373675380572","31"	
- * Brewing command received	
+"CoffeeMachine","1670322493401","2022-12-06T10:28:13.401Z","Not Brewing","71.94373675380572","31"		
 "CoffeeMachine","1670322495416","2022-12-06T10:28:15.416Z","Pressurize water","63.5966463672948","31"	
 "CoffeeMachine","1670322497425","2022-12-06T10:28:17.425Z","Brewing","61.368943820047406","30"	
 "CoffeeMachine","1670322499441","2022-12-06T10:28:19.441Z","Brewing","75.53183072486956","29"	
@@ -2613,8 +2596,6 @@ Id:  Body: Test message
 "CoffeeMachine","1670323980950","2022-12-06T10:53:00.950Z","Not Brewing","60.52246229787136","11"	
 "CoffeeMachine","1670323982959","2022-12-06T10:53:02.959Z","Not Brewing","64.76829073040415","11"	
 "CoffeeMachine","1670323984972","2022-12-06T10:53:04.972Z","Not Brewing","63.86588821897459","11"	
- * Reset water level received	
- * Reset to 53	 state set to Not Brewing
 "CoffeeMachine","1670323986977","2022-12-06T10:53:06.977Z","Not Brewing","76.95281528942942","53"	
 "CoffeeMachine","1670323988977","2022-12-06T10:53:08.977Z","Not Brewing","64.05179049541573","53"	
 "CoffeeMachine","1670323990980","2022-12-06T10:53:10.980Z","Not Brewing","75.00685732069908","53"	
@@ -2627,8 +2608,7 @@ Id:  Body: Test message
 "CoffeeMachine","1670324005038","2022-12-06T10:53:25.038Z","Not Brewing","75.9134940377051","53"	
 "CoffeeMachine","1670324007053","2022-12-06T10:53:27.053Z","Not Brewing","64.55882165360056","53"	
 "CoffeeMachine","1670324009066","2022-12-06T10:53:29.066Z","Not Brewing","64.2000288158968","53"	
-"CoffeeMachine","1670324011078","2022-12-06T10:53:31.078Z","Not Brewing","74.24899512886952","53"	
- * Brewing command received	
+"CoffeeMachine","1670324011078","2022-12-06T10:53:31.078Z","Not Brewing","74.24899512886952","53"		
 "CoffeeMachine","1670324013082","2022-12-06T10:53:33.082Z","Pressurize water","67.51889917635947","53"	
 "CoffeeMachine","1670324015088","2022-12-06T10:53:35.088Z","Brewing","62.83560263070035","52"	
 "CoffeeMachine","1670324017089","2022-12-06T10:53:37.089Z","Brewing","60.49551071722086","51"	
@@ -3466,7 +3446,6 @@ Id:  Body: Test message
 "CoffeeMachine","1670325687488","2022-12-06T11:21:27.488Z","Not Brewing","69.83161870108856","33"	
 "CoffeeMachine","1670325689504","2022-12-06T11:21:29.504Z","Not Brewing","79.04542174755319","33"	
 "CoffeeMachine","1670325691517","2022-12-06T11:21:31.517Z","Not Brewing","67.00898371314801","33"	
-Client connected	
 "CoffeeMachine","1670325702873","2022-12-06T11:21:42.873Z","Not Brewing","63.593856268591935","33"	
 "CoffeeMachine","1670325704882","2022-12-06T11:21:44.882Z","Not Brewing","69.40224902874787","33"	
 "CoffeeMachine","1670325706889","2022-12-06T11:21:46.889Z","Not Brewing","77.92185473486559","33"	
@@ -4720,8 +4699,7 @@ Client connected
 "CoffeeMachine","1670328047229","2022-12-06T12:00:47.229Z","Not Brewing","67.25390292105963","33"	
 "CoffeeMachine","1670328049239","2022-12-06T12:00:49.239Z","Not Brewing","74.80366443709474","33"	
 "CoffeeMachine","1670328051244","2022-12-06T12:00:51.244Z","Not Brewing","73.31817936022182","33"	
-"CoffeeMachine","1670328053251","2022-12-06T12:00:53.251Z","Not Brewing","66.07751692468386","33"	
- * Brewing command received	
+"CoffeeMachine","1670328053251","2022-12-06T12:00:53.251Z","Not Brewing","66.07751692468386","33"		
 "CoffeeMachine","1670328055258","2022-12-06T12:00:55.258Z","Pressurize water","69.88296413051114","33"	
 "CoffeeMachine","1670328057263","2022-12-06T12:00:57.263Z","Brewing","63.942654144407555","32"	
 "CoffeeMachine","1670328059267","2022-12-06T12:00:59.267Z","Brewing","77.23603383085367","31"	
