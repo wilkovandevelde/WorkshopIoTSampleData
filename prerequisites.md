@@ -12,6 +12,8 @@ Install the latest versions of the following applications:
 
 - <a href="https://code.visualstudio.com/?WT.mc_id=IoT-MVP-5002324" target="_blank">Visual studio code</a>
 
+  > This tool is used as editor for the device simulation application
+
 - <a href="https://nodejs.org/en/download/" target="_blank">Node.js runtime</a>
 
   > *Note*: This course is tested using the latest LTS version.
@@ -25,6 +27,8 @@ Install the latest versions of the following applications:
   > *Note*: As an alternative, the <a href="https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit&WT.mc_id=IoT-MVP-5002324" target="_blank">Visual Studio Code extension for IoT Hub</a> can be used (out of scope for this tutorial)
 
 - <a href="https://git-scm.com/downloads" target="_blank">Git</a>
+
+  > Using Git, you can download the app within Visual Studio Code.
 
 ## Create an account
 
