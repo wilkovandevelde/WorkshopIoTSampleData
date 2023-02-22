@@ -16,6 +16,8 @@ Install the latest versions of the following applications:
 
 - <a href="https://nodejs.org/en/download/" target="_blank">Node.js runtime</a>
 
+  > *Note*: You need adminstrator rights on your laptop to install Node.js.
+
   > *Note*: This course is tested using the latest LTS version.
 
   > *Note*: If Node is already installed, check the version with:
@@ -28,7 +30,7 @@ Install the latest versions of the following applications:
 
 - <a href="https://git-scm.com/downloads" target="_blank">Git</a>
 
-  > Using Git, you can download the app within Visual Studio Code.
+  > *Note*: Using Git, you can download the app within Visual Studio Code.
 
 ## Create an account
 
