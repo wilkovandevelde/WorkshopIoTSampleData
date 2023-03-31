@@ -90,15 +90,18 @@ client.open(function(err) {
             console.log('twin state reported:' + JSON.stringify(patch));
           });
 
-          // Register for Cloud Messages based on correct twin
-          if (!cloudMessageHandlerRegistered) {
-            client.on('message', messageHandler);
-            cloudMessageHandlerRegistered = true;
-            console.log('Cloud message handler registered');
-          }
+          
         }); 
       }
     });
+
+    // Register for Cloud Messages based on correct twin
+    if (!cloudMessageHandlerRegistered) {
+      client.on('message', messageHandler);
+      cloudMessageHandlerRegistered = true;
+      console.log('Cloud message handler registered');
+    }
+
   }
 });
 
