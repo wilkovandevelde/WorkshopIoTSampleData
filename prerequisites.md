@@ -37,6 +37,6 @@ Install the latest versions of the following applications:
 Register for the accounts:
 
 - <a href="https://azure.microsoft.com/en-us/free/" target="_blank">Microsoft account</a>
-  > *Note*: You should be able to access the Azure portal and be able to create resources. Contact you administrator if needed.
+  > *Note*: You should be able to access the Azure portal and be able to create resources. Contact your administrator if needed.
   
   > *Note*: Although this is a guided workshop, some basic knowledge about Azure would be welcome. Please contact the organisers if you need help to get started.
