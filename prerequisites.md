@@ -12,11 +12,11 @@ Install the latest versions of the following applications:
 
 - <a href="https://code.visualstudio.com/?WT.mc_id=IoT-MVP-5002324" target="_blank">Visual studio code</a>
 
-  > This tool is used as editor for the device simulation application
+  > This tool is used as an editor for the device simulation application
 
 - <a href="https://nodejs.org/en/download/" target="_blank">Node.js runtime</a>
 
-  > *Note*: You need adminstrator rights on your laptop to install Node.js.
+  > *Note*: You need administrator rights on your laptop to install Node.js.
 
   > *Note*: This course is tested using the latest LTS version.
 
@@ -39,4 +39,4 @@ Register for the accounts:
 - <a href="https://azure.microsoft.com/en-us/free/" target="_blank">Microsoft account</a>
   > *Note*: You should be able to access the Azure portal and be able to create resources. Contact your administrator if needed.
   
-  > *Note*: Although this is a guided workshop, some basic knowledge about Azure would be welcome. Please contact the organisers if you need help to get started.
+  > *Note*: Although this is a guided workshop, some basic knowledge about Azure would be welcome. Please contact the organizers if you need help to get started.
