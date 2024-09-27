@@ -15,6 +15,8 @@ var Protocol = require('azure-iot-device-mqtt').Mqtt;
 
 var Client = require('azure-iot-device').Client;
 const Message = require('azure-iot-device').Message;
+var player = require('play-sound')()
+var audio = null;
 
 //Default variables
 var minWatertemperature = 80;
@@ -146,8 +148,10 @@ function connectHandler () {
           if (brewingTimer == 0)
           {
             state = 'Not Brewing';
+            stopCoffeeSound();
           } else {
             state = 'Brewing';
+            startCoffeeSound();
           }
         } else {
           state = 'Waterlevel too low!';
@@ -212,6 +216,7 @@ function onCommandResetWaterLevel(request, response)
 
   waterLevel = Math.round((Math.random() * 5) + 48);
   state = 'Not Brewing';
+  stopCoffeeSound();
 
   console.log(' * Reset to ' + waterLevel + '; state set to ' + state);
 
@@ -224,4 +229,21 @@ function onCommandResetWaterLevel(request, response)
           console.error('[IoT hub Client] Failed sending a method response:\n' + errorMessage.message);
       }
   });
+}
+
+function startCoffeeSound()
+{
+  if (!audio) {
+    audio = player.play('coffee-brewing.mp3', function(err){
+      if (err) throw err
+    })
+  }
+}
+
+function stopCoffeeSound()
+{
+  if (audio) {
+    audio.kill()
+    audio = null;
+  }
 }
